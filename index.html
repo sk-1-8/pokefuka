@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Kiwi+Maru:wght@300&display=swap" rel="stylesheet">
+
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <title>色違い国際孵化頑張ろう</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <div class="header">
+      <h1>国際孵化での色違いポケモンの出現確率を見る</h1>
+    </div>
+
+    <div class="main">
+      <h2>なかなか色違いのポケモンが出ないときは<br>現状の出現確率を見てモチベーションを上げよう<br>
+      <img src="egg.png" id="egg" weight=400px height=400px alt="卵の孵化写真">
+      <br><span>前提条件</span>　国際孵化＋光お守り有</h2><br>
+      <img src="graph.png" id="graph" weight=450px height=450px alt="卵の孵化写真">
+    </div>
+
+    <form name="compaer">
+
+      <h1>色違い出現確率</h1>
+
+      <p class="hatching_text">孵化した回数は？</p><br>
+      <input type="text" id="hatching"><br>
+      
+      <p class="result_text">色違いが出る確率は？</p><br>
+      <input type="text" id="result"><br>
+      
+      <div id="btn_id">Start</div>
+    </form>
+
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
